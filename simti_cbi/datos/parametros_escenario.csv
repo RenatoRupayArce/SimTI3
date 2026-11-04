@@ -1,0 +1,8 @@
+parametro,pesimista,base,optimista,componente,naturaleza,fuente
+delta_tpm_mtbf,0.125,0.25,0.45,K5,Literatura,"Base: MTBF +25 % (Prasada Rao, 2025); optimista: paradas −44 % (Mendes et al., 2023); pesimista: mitad del base"
+red_reparacion_tpm,0.15,0.305,0.53,K5,Literatura,"Base: MTTR −30,5 % (Prasada Rao, 2025); optimista: tiempo por intervención −53 % (Mendes et al., 2023); pesimista: mitad del base"
+cumplimiento_preventivo_tobe,1.0,1.0,1.0,K5,Diseño,Nivel alto del factor TPM (Tabla 27)
+p_deteccion,0.5,0.7,0.9,K6,Supuesto,Probabilidad de que una falla con precursor genere alerta (sensibilidad)
+frac_anticipada,0.5,0.75,0.9,K6,Supuesto,Proporción de alertas en zona C (anticipadas) frente a zona D (tardías)
+red_respuesta_alerta,0.3,0.6,0.8,K6,Supuesto,Reducción de la respuesta cuando la alerta reemplaza la solicitud por correo
+falsas_alarmas_mes,2.0,1.0,0.5,K6,Supuesto,Falsas alarmas por equipo sensorizado y mes

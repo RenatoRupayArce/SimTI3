@@ -1,0 +1,9 @@
+ID,Prueba,Resultado,Detalle
+V01,Ejecución completa,Aprobada,1464 lotes terminados en 2496 h de turno
+V02,Conservación del tiempo,Aprobada,Lotes que incumplen (duración = marcha + paradas): 0 de 1464
+V03,Capacidad y secuencia de lotes,Aprobada,Lotes simultáneos en un mismo equipo: 0; desviación máxima de horas de marcha frente a la línea base: 4.4%
+V04,Descomposición del MTTR,Aprobada,"116 fallas: respuesta + espera + reparación = duración, sin componentes negativos"
+V05,Caso extremo sin fallas,Aprobada,Con MTBF infinito y sin paradas no técnicas: disponibilidad = 1.0000
+V06,Caso extremo con IoT ideal,Aprobada,"Con detección y anticipación al 100 %: fallas con parada en equipos con sensor = 0; 77 OT programadas, todas enlazadas a una alerta anticipada"
+V07,Traza de un lote interrumpido,Aprobada,Lote MV-L2-02-011: inicio 102.90 h → falla 104.79 h → atención 105.12 h → espera de repuesto 4.81 h → fin de reparación 110.62 h → fin del lote 112.39 h
+V08,Reproducibilidad (números aleatorios comunes),Aprobada,"Misma semilla, mismo OEE: 0.542834 = 0.542834"

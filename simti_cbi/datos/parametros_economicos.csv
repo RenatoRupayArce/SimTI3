@@ -1,0 +1,15 @@
+parametro,valor,unidad,naturaleza,fuente
+costo_hora_tecnico,25.0,S/ por h,Supuesto,Costo hora del técnico de mantenimiento (validar con CBI)
+costo_hora_parada,45.0,S/ por h,Supuesto,"Operadores en espera, energía y horas extra por hora de parada (validar con CBI)"
+costo_lote_retrasado,200.0,S/ por lote,Supuesto,Flete urgente o penalidad por lote retrasado (validar con CBI)
+costo_compra_urgente,120.0,S/ por evento,Supuesto,Sobrecosto de compra o servicio urgente por cada espera de repuesto
+costo_sensor_equipo,1800.0,S/ por equipo,Supuesto,"Kit de vibración, temperatura y corriente (cotizar)"
+costo_pasarela,2500.0,S/,Supuesto,Pasarela de comunicación (cotizar)
+costo_plataforma_mes,150.0,S/ por mes,Supuesto,Plataforma de monitoreo en la nube (cotizar)
+costo_capacitacion_tpm,3000.0,S/,Supuesto,Capacitación inicial en TPM y mantenimiento autónomo
+costo_hora_operador,12.0,S/ por h,Supuesto,Costo hora del operador de línea
+inspeccion_autonoma_min_dia,15.0,min por equipo y día,Diseño,Checklist diario de mantenimiento autónomo (sección 3.3)
+dias_operacion,312.0,días por año,Real,26 días × 12 meses
+costo_materiales_preventivo,150.0,S/ por orden,Supuesto,"Lubricantes, filtros y consumibles por orden preventiva"
+presupuesto_mto_no_ejecutado,50911.2,S/ por año,Real,"S/ 8 485,2 sin ejecutar en dos meses (Tabla 2), anualizado ×6"
+presupuesto_rep_no_ejecutado,17949.0,S/ por año,Real,"S/ 2 991,5 sin ejecutar en dos meses (Tabla 2), anualizado ×6"

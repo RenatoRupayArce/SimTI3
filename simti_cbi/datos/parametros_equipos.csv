@@ -1,0 +1,12 @@
+codigo,descripcion,linea,clase_a,sensor_candidato,fallas,mtbf_h,mttr_h,horas_marcha,frac_mec_lub,frac_precursor,preventivos_anio,origen
+Rx-L1-03,Tanque reactor 1 100 L,Formulación de líquidos,1,1,18,9.1,9.1,163.8,0.62,0.4,12,Tabla 10
+Rx-L1-07,Tanque reactor 4 000 L,Formulación de líquidos,1,1,8,20.4,7.9,163.2,0.62,0.4,12,Tabla 10
+Rx-L1-01,Tanque reactor 350 L,Formulación de líquidos,1,0,5,23.6,14.9,118.0,0.62,0.4,12,Tabla 10
+OTR-LIQ,Otros equipos de líquidos (agregado),Formulación de líquidos,0,0,8,40.15,3.16,321.2,0.62,0.0,0,Cierre de totales
+MV-L2-02,Mezcladora tipo V 500 kg,Formulación de sólidos,1,1,17,19.1,5.7,324.7,0.62,0.4,12,Tabla 10
+MH-L3-01,Mezcladora helicoidal 250 kg,Formulación de sólidos,1,0,5,22.4,8.7,112.0,0.62,0.4,12,Tabla 10
+MH-L3-02,Mezcladora helicoidal,Formulación de sólidos,0,1,8,25.0,5.0,200.0,0.62,0.4,12,Tabla 10 (8 fallas); MTBF y MTTR por cierre
+OTR-SOL,Otros equipos de sólidos (agregado),Formulación de sólidos,0,0,6,24.28,3.16,145.68,0.62,0.0,0,Cierre de totales
+MM-L3-01,Molino de martillos,Molienda de insumos,1,1,22,15.27,5.3,335.94,0.62,0.4,12,Tabla 10
+DL-L1-01,Dosificadora de líquidos,Envasado de líquidos,0,0,12,16.64,3.5,199.68,0.3,0.0,24,Sección 3.4 (12 fallas); MTBF y MTTR por cierre
+SB-L2-01,Selladora de bolsas,Sellado de bolsas,0,0,3,55.97,3.2,167.91,0.62,0.0,12,Tabla 10
